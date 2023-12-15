@@ -1,0 +1,9 @@
+.mat-mdc-header-cell {
+border-bottom-color: var(--mat-table-row-item-outline-color, rgba(0, 0, 0, 0.12)) !important;
+border-bottom-width: var(--mat-table-row-item-outline-width, 1px) !important;
+border-bottom-style: solid !important;
+letter-spacing: var(--mat-table-header-headline-tracking) !important;
+font-weight: 800 !important;
+line-height: inherit !important;
+background-color: gray !important;
+}

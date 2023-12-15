@@ -1,0 +1,17 @@
+.full-height {
+    height: 100vh;
+}
+.padded {
+    padding: 10px;
+}
+
+.with-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+:host {
+  
+    transition: width 300ms cubic-bezier(.02,.68,.63,.98);
+  }

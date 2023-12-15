@@ -1,3 +1,13 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { SideMenuComponent } from './side-menu/component/side-menu/side-menu.component';
+import { DashboardComponent } from './dashboard/component/dashboard/dashboard.component';
+import { AboutComponent } from './dashboard/component/about/about.component';
+import { ContactComponent } from './dashboard/component/contact/contact.component';
+
+export const routes: Routes = [
+    {path: '', component: SideMenuComponent},
+    {path: 'home', component: DashboardComponent},
+    {path: 'about', component: AboutComponent},
+    {path: 'contacts', component: ContactComponent}
+];
