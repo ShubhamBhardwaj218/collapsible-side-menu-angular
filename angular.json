@@ -59,6 +59,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port": 5200
+          },
           "configurations": {
             "production": {
               "buildTarget": "maiora-task:build:production"

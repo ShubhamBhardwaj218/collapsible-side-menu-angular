@@ -6,7 +6,6 @@ import { AboutComponent } from './dashboard/component/about/about.component';
 import { ContactComponent } from './dashboard/component/contact/contact.component';
 
 export const routes: Routes = [
-    {path: '', component: SideMenuComponent},
     {path: 'home', component: DashboardComponent},
     {path: 'about', component: AboutComponent},
     {path: 'contacts', component: ContactComponent}
