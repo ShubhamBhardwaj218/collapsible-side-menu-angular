@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 
-import { SideMenuComponent } from './side-menu/component/side-menu/side-menu.component';
 import { DashboardComponent } from './dashboard/component/dashboard/dashboard.component';
 import { AboutComponent } from './dashboard/component/about/about.component';
 import { ContactComponent } from './dashboard/component/contact/contact.component';
